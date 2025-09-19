@@ -107,3 +107,31 @@ But it’s consistent with real-world biology: the fact that your ant-run evolve
 Once we hook into trait databases (TRY, GBIF) → we can test whether real flowers that are ant-pollinated cluster near those values.
 
 Real plant traits datasets.
+
+🌸 Scientific Background
+
+This simulation is based on the concept of pollination syndromes: the idea that different pollinators (ants, bees, bats, etc.) tend to favor flowers with certain combinations of traits (color, size, nectar reward). Over evolutionary time, plants adapt their traits to maximize pollination success.
+
+Trait definitions in the model:
+
+Trait 1: Flower color brightness (0 = white/pale, 1 = vivid/bright)
+
+Trait 2: Flower size (0 = tiny, 1 = large)
+
+Trait 3: Nectar reward (0 = none, 1 = abundant)
+
+Pollinator preference profiles (syndromes):
+
+Ants 🐜: [0.1, 0.2, 0.2] → small, pale, low-nectar flowers
+
+Bees 🐝: [0.8, 0.7, 0.5] → colorful, medium-to-large, moderate nectar flowers
+
+Bats 🦇: [0.2, 0.8, 0.9] → pale, large, nectar-rich night-blooming flowers
+
+These are simplified from ecological literature:
+
+Kevan, P. G., & Baker, H. G. (1983). Insects as flower visitors and pollinators. Annual Review of Entomology, 28, 407–453.
+
+Fenster, C. B., Armbruster, W. S., Wilson, P., Dudash, M. R., & Thomson, J. D. (2004). Pollination syndromes and floral specialization. Annual Review of Ecology, Evolution, and Systematics, 35, 375–403.
+
+Fleming, T. H., Geiselman, C., & Kress, W. J. (2009). The evolution of bat pollination: a phylogenetic perspective. Annals of Botany, 104(6), 1017–1043.
